@@ -1,6 +1,6 @@
 if ($PlayniteApi.ApplicationInfo.Mode -eq "Fullscreen")
 {
-START-PROCESS "C:\Playnite-Shell\EXE\Windows-Shell.EXE"
+START-PROCESS "C:\Playnite\Playnite-Shell\EXE\Windows-Shell.EXE"
 }
 else
 {
