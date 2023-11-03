@@ -1,1 +1,1 @@
-This program is in no way associated with Playnite and acts as a third-party extension to set Playnite as the shell and play a startup video.
+This program is in no way associated with Playnite and is to be treated as a third party extension.
