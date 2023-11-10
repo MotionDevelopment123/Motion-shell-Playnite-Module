@@ -1,0 +1,13 @@
+To change where Playnite-Shell looks for the following:
+
+FFPLAY
+Launch video
+Launch video size
+Playnite
+
+Please modify the respective following file using Notepad:
+
+C:\Playnote-Shell\FFPLAY.LOCATION
+C:\Playnote-Shell\VIDEO.LOCATION
+C:\Playnote-Shell\SCREENSIZE.PIXELS
+C:\Playnote-Shell\PLAYNITE.LOCATION

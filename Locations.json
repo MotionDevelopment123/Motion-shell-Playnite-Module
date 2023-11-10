@@ -1,0 +1,9 @@
+{
+  "Version": 1,
+  "Locations": {
+    "Playnite":"C:\Playnite\",
+    "FFPLAY":"C:\Playnite-Shell\ffmpeg-6.0-essentials_build\bin\ffplay.exe",
+    "VIDEO":C:\Playnite\Video\PlayniteSplash.MOV,
+    "Size":"-x 1920 -y 1080"
+  }
+}
