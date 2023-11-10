@@ -5,9 +5,7 @@
 #define MyAppVersion "1.0.0.0"
 #define MyAppPublisher "Motion development"
 #define MyAppURL "https://github.com/MotionDevelopment123/playnite-shell"
-#define DefaultPlaynite "C:\Playnite|"
-#define DefaultFFPLAY "C:\Playnite-Shell\ffmpeg-6.0-essentials_build\bin\ffplay.exe (Not included with Playnite-Shell, download link inlcuded in start menu."
-#define DefaultVIDEO "C:\Playnite-Shell\Video.mov"
+
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
@@ -38,18 +36,8 @@ WizardStyle=modern
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\Shared Folder\GitHub\playnite-shell\Installer\Shortcuts\*"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\config-Script.bat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\config-Script.PS1"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\FFPLAY.LOCATION"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\PLAYNITE.LOCATION"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\SCREENSIZE.PIXELS"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\Splash-Shell.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\VIDEO.LOCATION"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\Windows-Shell.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\Playnite-Shell Settings.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Shared Folder\GitHub\playnite-shell\Installer\Playnite-Shell-Setup.bat"; DestDir: "{app}"; Flags: ignoreversion
-; NOTE: Don't use "Flags: ignoreversion" on any shared system files
+Source: "C:\Shared Folder\GitHub\playnite-shell\Installer\Shortcuts\*"; DestDir: "{app}\Shortcuts"; Flags: ignoreversion
+Source: "C:\Shared Folder\GitHub\playnite-shell\Playnite-Shell\*"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\{cm:ProgramOnTheWeb,{#MyAppName}}"; Filename: "{#MyAppURL}"
