@@ -28,4 +28,4 @@ List of programs used to compile:
 - [Inno Setup](https://jrsoftware.org/isinfo.php)
   - Playnite-Shell.1.0.0.0.exe
  
-During setup the program sets the shell by editing a Registry Key
+During setup the program sets the shell by editing the following key: 
