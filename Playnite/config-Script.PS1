@@ -20,7 +20,7 @@ else{
  }'
 $config.AppShutdownScript = 'if ($PlayniteApi.ApplicationInfo.Mode -eq "Fullscreen")
 {
-START-PROCESS "C:\Playnite-Shell\Windows-Shell.EXE"
+START-PROCESS "C:\Motion-Shell\Playnite\Windows-Shell.EXE"
 }
 else
 {
