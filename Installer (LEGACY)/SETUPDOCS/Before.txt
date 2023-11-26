@@ -3,7 +3,6 @@ Welcome to Playnite-Shell
 Before continuing with the install please check the following requirements are met:
 
 - Playnite has been installed from the official Playnite website.
-- This installer is NOT being run as administrator.
-- FFPLAY
+- FFPLAY.exe is downloaded
 
 It is recomended to install this to a secondary account, if you set Playnite to portable when initially installing this allows Playnite to be used on both profiles.
